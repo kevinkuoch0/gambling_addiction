@@ -39,7 +39,7 @@ h1#pagetitle {
 	background-color: gray;
 	float: left;
 }
-img#all-in {
+#all-in {
 	margin-top: 100px;
 	float: left;
 }
@@ -93,24 +93,10 @@ footer p{
 	margin: 10px;
 }
 
-#about img{
-	border-radius: .5em;
-	width: 400px;
-	padding: 10px;
-	
+#blank{
 
+	width:900px;
+	height: 80px;
 }
 
-#helppicture {
 
-	width: 450px;
-	float: right;
-
-}
-
-#helppicture p{
-
-	width: 450px;
-	float: right;
-
-}
