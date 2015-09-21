@@ -50,12 +50,30 @@ article{
 
 }
 
-footer {
+#
+
+footer p{
 	clear: both;
 	text-align: center;
 	font-size: 13px;
+	width: 900px;
 	
 	
+	
+
+	
+	
+
+}
+
+#FooterBorder{
+
+	border: 2px solid white;
+	width: 897px;
+	margin: 0 auto;
+	color: white;
+	background-color: white;
+	height: 100%;
 
 }
 
@@ -63,5 +81,6 @@ footer {
 	width: 900px;
 	margin: 0 auto;
 	background-color: white;
+	height: 100%;
 	
 }
