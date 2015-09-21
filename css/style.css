@@ -23,12 +23,16 @@ li {
 	margin: 0px 10px 10px 0px;
 }
 a.nav:link, a.nav:visited {
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 a.nav:hover {
 	color: lightblue;
 	text-decoration: underline;
+}
+a.homepage:link, a.homepage:visited, a.homepage:hover {
+	color: black;
+	text-decoration: none;
 }
 h1#pagetitle {
 	text-transform: uppercase;
@@ -37,6 +41,9 @@ h1#pagetitle {
 }
 img#all-in {
 	margin-top: 100px;
+}
+p.intro {
+	padding: 0px 10px 0px 10px;
 }
 
 article{
