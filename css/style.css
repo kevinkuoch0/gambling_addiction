@@ -92,3 +92,21 @@ footer p{
 	padding: 10px;
 	margin: 10px;
 }
+
+#treatmentBoxes{
+	width: 680px;
+	margin: 20px auto;
+}
+
+.box{
+	background-color: DarkBlue;
+	width: 300px;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
