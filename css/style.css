@@ -41,6 +41,7 @@ h1#pagetitle {
 }
 img#all-in {
 	margin-top: 100px;
+	float: left;
 }
 p.intro {
 	padding: 0px 10px 0px 10px;
@@ -83,4 +84,11 @@ footer p{
 	background-color: white;
 	height: 100%;
 	
+}
+
+#information{
+	border-radius: .5em;
+	width: 400px;
+	padding: 10px;
+	margin: 10px;
 }
