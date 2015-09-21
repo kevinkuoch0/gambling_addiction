@@ -92,3 +92,25 @@ footer p{
 	padding: 10px;
 	margin: 10px;
 }
+
+#about img{
+	border-radius: .5em;
+	width: 400px;
+	padding: 10px;
+	
+
+}
+
+#helppicture {
+
+	width: 450px;
+	float: right;
+
+}
+
+#helppicture p{
+
+	width: 450px;
+	float: right;
+
+}
