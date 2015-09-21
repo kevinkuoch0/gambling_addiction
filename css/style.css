@@ -1,11 +1,14 @@
 body{
 	font-family: Helvetica;
+	background-color: black;
 }
 #header {
 	width: 900px;
 	margin: 0 auto;
 	border: 2px solid black;
 	position: fixed;
+	background-color: red;
+	background:rgba(0,0,0,0.75);
 }
 nav {
 	float: right;
@@ -32,6 +35,9 @@ h1#pagetitle {
 	background-color: gray;
 	float: left;
 }
+img#all-in {
+	margin-top: 100px;
+}
 
 article{
 
@@ -46,5 +52,6 @@ footer {
 #container{
 	width: 900px;
 	margin: 0 auto;
+	background-color: white;
 	
 }
