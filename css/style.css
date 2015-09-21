@@ -1,23 +1,50 @@
 body{
 	font-family: Helvetica;
 }
-
-header{
-
+#header {
+	width: 900px;
+	margin: 0 auto;
+	border: 2px solid black;
+	position: fixed;
 }
-
-nav{
-
+nav {
+	float: right;
+	margin-top: 30px;
+}
+li {
+	float: left;
+	list-style-type: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	margin: 0px 10px 10px 0px;
+}
+a.nav:link, a.nav:visited {
+	color: black;
+	text-decoration: none;
+}
+a.nav:hover {
+	color: lightblue;
+	text-decoration: underline;
+}
+h1#pagetitle {
+	text-transform: uppercase;
+	background-color: gray;
+	float: left;
 }
 
 article{
 
 }
 
-footer{
-
+footer {
+	clear: both;
+	text-align: center;
+	font-size: 13px;
 }
 
 #container{
+	width: 900px;
+	margin: 0 auto;
 	
 }
