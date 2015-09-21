@@ -41,6 +41,7 @@ h1#pagetitle {
 }
 img#all-in {
 	margin-top: 100px;
+	float: left;
 }
 p.intro {
 	padding: 0px 10px 0px 10px;
