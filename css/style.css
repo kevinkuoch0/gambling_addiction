@@ -80,7 +80,10 @@ a.homepage:link, a.homepage:visited, a.homepage:hover {
 p {
 	font-size: 14px;
 }
-
+form {
+	padding: 0px 60px 10px 50px;
+	font-size: 14px;
+}
 footer {
 	clear: both;
 	text-align: center;
