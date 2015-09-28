@@ -1,58 +1,69 @@
 body{
 	font-family: Helvetica;
-	background-color: black;
+	background-color: #CBF8FF;
 }
 #header {
 	width: 900px;
 	margin: 0 auto;
-	border: 2px solid black;
 	position: fixed;
-	background-color: red;
-	background:rgba(0,0,0,0.75);
+	background-color: #5A88B2;
+	/* opacity: 0.4; */
+	background:rgba(90,136,178,0.75);
 }
 nav {
 	float: right;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 li {
 	float: left;
 	list-style-type: none;
 	text-transform: uppercase;
-	font-weight: bold;
+	/* font-weight: bold; */
+	letter-spacing: 2px;
 	color: white;
-	margin: 0px 10px 10px 0px;
+	margin: 0px 40px 10px 0px;
 }
 a.nav:link, a.nav:visited {
-	color: white;
+	color: #FFEAA9;
 	text-decoration: none;
 }
 a.nav:hover {
-	color: lightblue;
+	color: #DB5200;
+	font-style: italic;
 	text-decoration: underline;
 }
+a.nav:active{
+	color: #ffffff;
+	font-style: italic;
+	text-decoration: none;
+}
 a.homepage:link, a.homepage:visited, a.homepage:hover {
-	color: black;
+	color: #ffffff;
+	letter-spacing: 1px;
 	text-decoration: none;
 }
 #pagetitle {
 	text-transform: uppercase;
-	background-color: gray;
+	font-style: italic;
+	background-color: #5A88B2;
 	float: left;
-	padding-left: 4px;
-	padding-right: 4px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #ffffff;
 }
 #all-in {
-	margin-top: 100px;
+	/* margin-top: 100px; */
 	margin-bottom: 20px;
 	float: left;
 }
 #intro {
-	margin-left: 8px;
+	margin-left: 28px;
 	font-style: italic;
 	font-size: 20px;
+	color: #DB5200;
 }
 .intro {
-	padding: 0px 20px 10px 30px;
+	padding: 0px 60px 10px 50px;
 }
 p {
 	font-size: 14px;
@@ -61,17 +72,17 @@ article{
 
 }
 
-footer p{
+footer {
 	clear: both;
 	text-align: center;
 	font-size: 13px;
 	width: 900px;
+	background-color: white;
 }
 
 #FooterBorder{
-
-	border: 2px solid white;
-	width: 897px;
+	/* border: 2px solid white; */
+	width: 900px;
 	margin: 0 auto;
 	color: white;
 	background-color: white;
@@ -109,7 +120,6 @@ footer p{
 .clear{
 	clear: both;
 }
-
 #blank{
 
 	width:900px;
