@@ -78,6 +78,7 @@ a.homepage:link, a.homepage:visited, a.homepage:hover {
 
 p {
 	font-size: 14px;
+	line-height: 18px;
 }
 form {
 	padding: 0px 60px 10px 50px;
@@ -159,4 +160,35 @@ footer {
 	width: 80%;
 	font-size: 14px;
 	margin-left: 35px;
+}
+#social {
+	margin: 3.5px;
+	border: 0px;
+	text-decoration: none;
+}
+.banner{
+	width: 450px;
+	height: 120px;
+	text-align: center;
+	padding: 10px;
+	/* margin: 10px; */
+	float: left;
+}
+.bottcontact{
+	background-color: #EB7F00;
+	width: 350px;
+	height: 120px;
+	text-align: center;
+	line-height: 18px;
+	color: #570b03;
+	margin: 10px 0px 10px 10px;
+	float: left;
+}
+.bottsocial{
+	background-color: #1695A3;
+	width: 60px;
+	height: 120px;
+	color: #1695A3;
+	margin: 10px 10px 10px 0px;
+	float: right;
 }
