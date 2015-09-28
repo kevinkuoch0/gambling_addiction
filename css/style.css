@@ -1,15 +1,17 @@
+html{
+	background: linear-gradient(to bottom right, #fffffc, #fbfbeb);
+}
 body{
 	font-family: Helvetica;
-	background-color: #CBF8FF;
+	/* background-color: #F7FFEB; */
 }
-
 #header {
 	width: 900px;
 	margin: 0 auto;
 	position: fixed;
-	background-color: #5A88B2;
+	background-color: #ffffff;
 	/* opacity: 0.4; */
-	background:rgba(90,136,178,0.75);
+	background:rgba(255,255,255,0.85);
 }
 
 nav {
@@ -27,14 +29,14 @@ nav {
 }
 
 a.nav:link, a.nav:visited {
-	color: #FFEAA9;
+	color: #FFAF33;
 	text-decoration: none;
 }
 
 a.nav:hover {
 	color: #DB5200;
 	font-style: italic;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a.nav:active{
@@ -44,7 +46,7 @@ a.nav:active{
 }
 
 a.homepage:link, a.homepage:visited, a.homepage:hover {
-	color: #ffffff;
+	color: #1184EB;
 	letter-spacing: 1px;
 	text-decoration: none;
 }
@@ -52,11 +54,11 @@ a.homepage:link, a.homepage:visited, a.homepage:hover {
 #pagetitle {
 	text-transform: uppercase;
 	font-style: italic;
-	background-color: #5A88B2;
+	/* background-color: #ffffff; */
 	float: left;
 	padding-left: 15px;
 	padding-right: 15px;
-	color: #ffffff;
+	color: #1695A3;
 }
 
 #all-in {
@@ -116,7 +118,7 @@ footer {
 }
 
 #treatmentBoxes{
-	width: 680px;
+	width: 780px;
 	margin: 20px auto;
 }
 
@@ -127,13 +129,13 @@ footer {
 }
 
 .box{
-	background-color: #3B98BF;
+	background-color: #bee8fa;
 	width: 300px;
 	border-radius: 5px;
 	padding: 10px;
 	margin: 10px;
 	float: left;
-	box-shadow: 10px 10px 5px #A4A4A4;
+	box-shadow: 10px 10px 5px #e8f3f7;
 }
 
 .box h3{
@@ -195,4 +197,7 @@ footer {
 
 .bottsocial a{
 	text-decoration: none;
+}
+a.emailink {
+		text-decoration: none;
 }
