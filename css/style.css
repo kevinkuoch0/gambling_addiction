@@ -16,8 +16,7 @@ nav {
 	float: right;
 	margin-top: 20px;
 }
-
-li {
+.navmenu {
 	float: left;
 	list-style-type: none;
 	text-transform: uppercase;
@@ -147,4 +146,17 @@ footer {
 #blank{
 	width:900px;
 	height: 80px;
+}
+.bold-uppercase {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.bold-italic {
+	font-weight: bold;
+	font-style: italic;
+}
+.values {
+	width: 80%;
+	font-size: 14px;
+	margin-left: 35px;
 }
